@@ -1,0 +1,46 @@
+.cardCont {
+    margin: 24px 0px 0px;
+    border-radius: 8px;
+    padding: 0;
+    border: 1px solid #e8ebf2;
+}
+
+.cardCont .input-wrapper {
+    display: block;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+}
+
+
+.infoTitle {
+    color: #444bc5;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.infoDesc {
+    color: #7c8286;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.preview {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.previewImg {
+    height: 80px;
+    width: 80px;
+}
