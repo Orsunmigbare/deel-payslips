@@ -5,8 +5,6 @@ const config: CapacitorConfig = {
   appName: "deel-payslips",
   webDir: "dist",
   server: {
-    url: "http://localhost:5173/",
-    cleartext: true,
     androidScheme: "https",
   },
 };
