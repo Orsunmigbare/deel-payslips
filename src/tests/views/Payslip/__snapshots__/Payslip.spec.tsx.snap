@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payslip renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="ion-page"
+      >
+        <ion-header>
+          <!---->
+          <ion-toolbar>
+            <ion-buttons
+              slot="start"
+            >
+              <ion-back-button
+                default-href="/"
+              />
+            </ion-buttons>
+            <ion-title>
+              Payslip
+            </ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content
+          class="ion-padding"
+        >
+          <div
+            class="payslip"
+          >
+            <h2
+              class="subHeading"
+            >
+               Payslip ID : 
+              61f4a809a6c0b5d0e1840c11
+            </h2>
+            <div
+              class="preview"
+            >
+              <h3
+                class="previewTitle"
+              >
+                 Duration : 
+                Tue Feb 01 2022
+                 - 
+                Tue Mar 01 2022
+                 
+              </h3>
+              <div
+                class="imgCont"
+              >
+                <ion-img
+                  alt="payslip"
+                  src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
+                />
+              </div>
+            </div>
+          </div>
+        </ion-content>
+        <ion-footer
+          class="ion-padding"
+        >
+          <!---->
+          <div
+            class="footer"
+          >
+            <ion-button
+              class="button"
+              disabled="false"
+            >
+              Download Payslip
+            </ion-button>
+          </div>
+        </ion-footer>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="ion-page"
+    >
+      <ion-header>
+        <!---->
+        <ion-toolbar>
+          <ion-buttons
+            slot="start"
+          >
+            <ion-back-button
+              default-href="/"
+            />
+          </ion-buttons>
+          <ion-title>
+            Payslip
+          </ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content
+        class="ion-padding"
+      >
+        <div
+          class="payslip"
+        >
+          <h2
+            class="subHeading"
+          >
+             Payslip ID : 
+            61f4a809a6c0b5d0e1840c11
+          </h2>
+          <div
+            class="preview"
+          >
+            <h3
+              class="previewTitle"
+            >
+               Duration : 
+              Tue Feb 01 2022
+               - 
+              Tue Mar 01 2022
+               
+            </h3>
+            <div
+              class="imgCont"
+            >
+              <ion-img
+                alt="payslip"
+                src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
+              />
+            </div>
+          </div>
+        </div>
+      </ion-content>
+      <ion-footer
+        class="ion-padding"
+      >
+        <!---->
+        <div
+          class="footer"
+        >
+          <ion-button
+            class="button"
+            disabled="false"
+          >
+            Download Payslip
+          </ion-button>
+        </div>
+      </ion-footer>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

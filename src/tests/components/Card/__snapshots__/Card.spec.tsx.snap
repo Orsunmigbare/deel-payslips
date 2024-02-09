@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <ion-item
+        class="cardCont"
+        detail="false"
+        href="/payslip/61f4a809a6c0b5d0e1840c11"
+        lines="none"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="info"
+          >
+            <h3
+              class="infoTitle"
+            >
+              Payslip for 
+              Tue Feb 01 2022
+               to 
+              Tue Mar 01 2022
+            </h3>
+            <div
+              class="infoDesc"
+            >
+              Click to for details
+            </div>
+          </div>
+          <div
+            class="preview"
+          >
+            <figure>
+              <ion-img
+                alt="payslip"
+                class="previewImg"
+                src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
+              />
+              <figcaption>
+                Payslip for 
+                Tue Feb 01 2022
+                 to 
+                Tue Mar 01 2022
+                 
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </ion-item>
+    </div>
+  </body>,
+  "container": <div>
+    <ion-item
+      class="cardCont"
+      detail="false"
+      href="/payslip/61f4a809a6c0b5d0e1840c11"
+      lines="none"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="info"
+        >
+          <h3
+            class="infoTitle"
+          >
+            Payslip for 
+            Tue Feb 01 2022
+             to 
+            Tue Mar 01 2022
+          </h3>
+          <div
+            class="infoDesc"
+          >
+            Click to for details
+          </div>
+        </div>
+        <div
+          class="preview"
+        >
+          <figure>
+            <ion-img
+              alt="payslip"
+              class="previewImg"
+              src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
+            />
+            <figcaption>
+              Payslip for 
+              Tue Feb 01 2022
+               to 
+              Tue Mar 01 2022
+               
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </ion-item>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

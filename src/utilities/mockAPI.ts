@@ -1,4 +1,5 @@
-import payslips from "src/mockData/payslips.json" assert { type: "json" };
+// @ts-ignore
+import payslips from "mockData/payslips.json" assert { type: "json" };
 import {
   responseStatus,
   PayslipResponse,
