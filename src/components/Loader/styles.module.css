@@ -1,0 +1,25 @@
+.loader {
+    width: 200px;
+    background: #ffffffc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 160px;
+}
+
+
+.image {
+    height: 80px;
+    animation: anim-glow-brand alternate 1s ease-in-out infinite;
+}
+
+@keyframes anim-glow-brand {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
