@@ -1,4 +1,4 @@
-import { Payslip } from "types/api";
+import { Payslip } from "src/types/api";
 import styles from "./styles.module.css"
 import { IonItem, IonImg } from "@ionic/react";
 
@@ -11,12 +11,9 @@ export const Card = (props: Payslip) => {
                     <div className={styles.infoDesc}>Click to for details</div>
                 </div>
                 <div className={styles.preview}>
-                    <figure>
-                        <IonImg className={styles.previewImg}
-                            src={props.file} alt="payslip"
-                        ></IonImg>
-                        <figcaption>Payslip for {new Date(props.fromDate).toDateString()} to {new Date(props.toDate).toDateString()} </figcaption>
-                    </figure>
+                    <IonImg className={styles.previewImg}
+                        src={props.file} alt="payslip"
+                    ></IonImg>
                 </div>
             </div>
         </IonItem>

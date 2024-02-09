@@ -34,20 +34,11 @@ exports[`Card renders correctly 1`] = `
           <div
             class="preview"
           >
-            <figure>
-              <ion-img
-                alt="payslip"
-                class="previewImg"
-                src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
-              />
-              <figcaption>
-                Payslip for 
-                Tue Feb 01 2022
-                 to 
-                Tue Mar 01 2022
-                 
-              </figcaption>
-            </figure>
+            <ion-img
+              alt="payslip"
+              class="previewImg"
+              src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
+            />
           </div>
         </div>
       </ion-item>
@@ -83,20 +74,11 @@ exports[`Card renders correctly 1`] = `
         <div
           class="preview"
         >
-          <figure>
-            <ion-img
-              alt="payslip"
-              class="previewImg"
-              src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
-            />
-            <figcaption>
-              Payslip for 
-              Tue Feb 01 2022
-               to 
-              Tue Mar 01 2022
-               
-            </figcaption>
-          </figure>
+          <ion-img
+            alt="payslip"
+            class="previewImg"
+            src="https://www.personalfinancelab.com/wp-content/uploads/h5p/content/13/images/image-5e502af138e62.PNG"
+          />
         </div>
       </div>
     </ion-item>

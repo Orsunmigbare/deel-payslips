@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">deel-payslips2</string>
-    <string name="title_activity_main">deel-payslips2</string>
+    <string name="app_name">deel-payslips</string>
+    <string name="title_activity_main">deel-payslips</string>
     <string name="package_name">com.deel.payslips2</string>
     <string name="custom_url_scheme">com.deel.payslips2</string>
 </resources>

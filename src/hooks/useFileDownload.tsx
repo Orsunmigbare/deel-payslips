@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Capacitor } from "@capacitor/core"
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { FileOpener } from "@capacitor-community/file-opener"
-import { base64FromPath, downloadFile } from "utilities/fileDownload";
+import { base64FromPath, downloadFile } from "src/utilities/fileDownload";
 
 
 export const useFileDownload = () => {

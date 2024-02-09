@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom"
 import { render } from '@testing-library/react';
-import { useMockFetch } from "hooks/useMockFetch";
-import Payslips from "views/Payslips/Payslips";
+import { useMockFetch } from "src/hooks/useMockFetch";
+import Payslips from "src/views/Payslips/Payslips";
 import { sampleSlips } from "./data";
 
 jest.mock("../../../hooks/useMockFetch", () => (
@@ -20,7 +20,7 @@ describe("Payslips", () => {
         const screen = render(<Payslips />);
         sampleSlips.forEach((slip, i) => {
             const durationText = `Payslip for ${new Date(slip.fromDate).toDateString()} to ${new Date(slip.toDate).toDateString()}`
-            expect(screen.getAllByText(durationText)).toHaveLength(2);
+            expect(screen.getByText(durationText)).toBeInTheDocument();
             expect(screen.getAllByAltText('payslip')[i]).toHaveAttribute("src", slip.file);
             expect(document.querySelectorAll("ion-item")[i]).toHaveAttribute("href", `/payslip/${slip.id}`)
         })

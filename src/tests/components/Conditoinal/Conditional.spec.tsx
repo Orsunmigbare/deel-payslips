@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom"
 import { render } from '@testing-library/react';
-import { Conditional } from 'components/Conditional/Conditional';
+import { Conditional } from 'src/components/Conditional/Conditional';
 import { conditionalProps } from './data';
 
 

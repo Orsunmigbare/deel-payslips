@@ -13,11 +13,11 @@ import {
     useIonToast,
 } from '@ionic/react';
 import { useParams } from 'react-router';
-import { Payslip as IPayslip } from 'types/api';
-import { useMockFetch } from 'hooks/useMockFetch';
-import { useFileDownload } from 'hooks/useFileDownload';
-import { Conditional } from 'components/Conditional/Conditional';
-import { showToast } from 'utilities/toast';
+import { Payslip as IPayslip } from 'src/types/api';
+import { useMockFetch } from 'src/hooks/useMockFetch';
+import { useFileDownload } from 'src/hooks/useFileDownload';
+import { Conditional } from 'src/components/Conditional/Conditional';
+import { showToast } from 'src/utilities/toast';
 import styles from "./styles.module.css"
 
 

@@ -1,4 +1,4 @@
-import { Card } from "components/Card/Card";
+import { Card } from "src/components/Card/Card";
 import {
     IonPage,
     IonContent,
@@ -7,9 +7,9 @@ import {
     IonToolbar,
     IonList,
 } from '@ionic/react';
-import { Payslip as IPayslip } from 'types/api';
-import { useMockFetch } from "hooks/useMockFetch";
-import { Conditional } from "components/Conditional/Conditional";
+import { Payslip as IPayslip } from 'src/types/api';
+import { useMockFetch } from "src/hooks/useMockFetch";
+import { Conditional } from "src/components/Conditional/Conditional";
 import styles from "./styles.module.css"
 
 

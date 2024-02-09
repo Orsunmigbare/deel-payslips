@@ -1,8 +1,8 @@
 import "@testing-library/jest-dom"
 import { render, fireEvent } from '@testing-library/react';
-import { useFileDownload } from "hooks/useFileDownload";
-import { useMockFetch } from "hooks/useMockFetch";
-import Payslip from "views/Payslip/Payslip";
+import { useFileDownload } from "src/hooks/useFileDownload";
+import { useMockFetch } from "src/hooks/useMockFetch";
+import Payslip from "src/views/Payslip/Payslip";
 import { sampleSlip } from "./data";
 import { useParams } from 'react-router';
 

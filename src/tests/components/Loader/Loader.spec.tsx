@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom"
 import { render } from '@testing-library/react';
-import { Loader } from "components/Loader/Loader";
+import { Loader } from "src/components/Loader/Loader";
 
 
 

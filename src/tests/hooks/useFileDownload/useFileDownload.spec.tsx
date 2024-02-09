@@ -1,9 +1,9 @@
 import { renderHook, act } from "@testing-library/react";
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { FileOpener } from "@capacitor-community/file-opener"
-import { useFileDownload } from "hooks/useFileDownload";
+import { useFileDownload } from "src/hooks/useFileDownload";
 import { Capacitor } from "@capacitor/core";
-import * as FileDownload from "utilities/fileDownload";
+import * as FileDownload from "src/utilities/fileDownload";
 
 jest.mock("@capacitor/core", () => (
     {

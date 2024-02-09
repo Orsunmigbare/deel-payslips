@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchPayslip, fetchPayslips } from "utilities/mockAPI"
+import { fetchPayslip, fetchPayslips } from "src/utilities/mockAPI"
 
 
 type MockFetchState = {

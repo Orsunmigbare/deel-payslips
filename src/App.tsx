@@ -3,8 +3,8 @@ import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
 
 
-import Payslips from './views/Payslips/Payslips';
-import Payslip from './views/Payslip/Payslip';
+import Payslips from 'src/views/Payslips/Payslips';
+import Payslip from 'src/views/Payslip/Payslip';
 
 
 
